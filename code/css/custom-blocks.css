@@ -1,0 +1,107 @@
+/* Background Color */
+
+.has-strong-magenta-background-color{
+	background-color: #a156b4;
+}
+
+.has-light-grayish-magenta-background-color{
+	background-color: #d0a5db;
+}
+
+.has-very-light-gray-background-color{
+	background-color: #eee;
+}
+
+.has-very-dark-gray-background-color{
+	background-color: #444;
+}
+
+/* Text Color */
+
+
+.has-strong-magenta-color{
+	color: #a156b4;
+}
+
+.has-light-grayish-magenta-color{
+	color: #d0a5db;
+}
+
+.has-very-light-gray-color{
+	color: #eee;
+}
+
+.has-very-dark-gray-color{
+	color: #444;
+}
+
+/* Font Size */
+
+.has-tiny-font-size{
+	font-size: 8px;
+}
+
+.has-small-font-size{
+	font-size: 12px;
+}
+
+.has-normal-font-size{
+	font-size: 16px;
+}
+
+.has-large-font-size{
+	font-size: 36px;
+}
+
+/* Aligns */
+
+.alignwide{
+	width: 100%;
+	max-width: 100%;
+}
+.alignfull {
+	margin: 0 calc(50% - 50vw);
+	max-width: 100vw;
+	width: 100vw;
+}
+
+/* Templates */
+
+
+.quote-post{
+	background-color: #a156b4;
+	padding: 8px 20px;
+}
+
+.quote-template{
+	background-color: #a156b4;
+	padding: 1rem 8rem;
+	text-align: center;
+	
+}
+
+.quote-template blockquote{
+	font-size: 1.5rem;
+}
+
+/* ACF Block */
+
+
+.author{
+	display: flex;
+	align-items: center;
+	border-top: 1px solid grey;
+	padding-top: 2rem;
+	margin-top: 2rem;
+}
+
+.author-img{
+	flex-basis: 40%;
+	margin-right: 2rem;
+}
+
+.author-img img{
+	border-radius: 50%;
+	width: 100%;
+	height: auto;
+}
